@@ -4,7 +4,6 @@
     "version": "4a13a885"
   },
   "products": [
-    [
   {
     "id": "prod-4a13a885-001",
     "name": "Elite Item 1",
@@ -125,8 +124,7 @@
     "stock": 64,
     "rating": 1.5
   }
-]
-  ],
+],
   "aggregations": {
     "clothing": {
       "count": 1,
