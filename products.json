@@ -21,25 +21,10 @@
     { "id": "prod-4a13a885-015", "name": "Elite Item 15", "category": "electronics", "price": 326.16, "stock": 64, "rating": 1.5 }
   ],
   "aggregations": {
-    "home": {
-      "count": 5,
-      "inventoryValue": 108303.11
-    },
-    "sports": {
-      "count": 5,
-      "inventoryValue": 75383.67
-    },
-    "electronics": {
-      "count": 2,
-      "inventoryValue": 21393.45
-    },
-    "books": {
-      "count": 2,
-      "inventoryValue": 65210.56
-    },
-    "clothing": {
-      "count": 1,
-      "inventoryValue": 64694.40
-    }
+    "home": { "count": 5, "inventoryValue": 108875.49999999999 },
+    "sports": { "count": 5, "inventoryValue": 75181.57 },
+    "electronics": { "count": 2, "inventoryValue": 21393.45 },
+    "books": { "count": 2, "inventoryValue": 65210.56 },
+    "clothing": { "count": 1, "inventoryValue": 64694.40 }
   }
 }
