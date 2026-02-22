@@ -1,0 +1,27 @@
+name: Dependency Caching Verification
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  cache-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Cache dependencies
+        id: cache-step
+        uses: actions/cache@v4
+        with:
+          path: ~/dummy-cache-dir
+          key: cache-3da7053
+
+      - name: prime-cache-3da7053
+        run: |
+          echo "Cache hit: ${{ steps.cache-step.outputs.cache-hit }}"
+          echo "If this is the first run, it will be empty or 'false'."
+          mkdir -p ~/dummy-cache-dir
+          echo "This data is now cached" > ~/dummy-cache-dir/data.txt
