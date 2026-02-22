@@ -1,0 +1,13 @@
+name: Grade Verification Action
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 21f2000813@ds.study.iitm.ac.in
+        run: echo "Action triggered for verification"
