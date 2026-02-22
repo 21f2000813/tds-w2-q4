@@ -1,0 +1,30 @@
+{
+  metadata: {
+    email: 21f2000813@ds.study.iitm.ac.in,
+    version: 4a13a885
+  },
+  products: [
+    { id: prod-4a13a885-001, name: Elite Item 1, category: home, price: 223.81, stock: 19, rating: 4 },
+    { id: prod-4a13a885-002, name: Standard Item 2, category: sports, price: 180.48, stock: 187, rating: 4.9 },
+    { id: prod-4a13a885-003, name: Pro Item 3, category: home, price: 483.77, stock: 113, rating: 4.9 },
+    { id: prod-4a13a885-004, name: Standard Item 4, category: home, price: 55.75, stock: 56, rating: 1.6 },
+    { id: prod-4a13a885-005, name: Pro Item 5, category: electronics, price: 19.23, stock: 27, rating: 5 },
+    { id: prod-4a13a885-006, name: Standard Item 6, category: books, price: 474.35, stock: 59, rating: 4 },
+    { id: prod-4a13a885-007, name: Pro Item 7, category: home, price: 432.64, stock: 107, rating: 3.7 },
+    { id: prod-4a13a885-008, name: Basic Item 8, category: sports, price: 179.97, stock: 39, rating: 2.7 },
+    { id: prod-4a13a885-009, name: Standard Item 9, category: sports, price: 358.64, stock: 23, rating: 2.2 },
+    { id: prod-4a13a885-010, name: Basic Item 10, category: clothing, price: 404.34, stock: 160, rating: 3.3 },
+    { id: prod-4a13a885-011, name: Standard Item 11, category: home, price: 271.31, stock: 2, rating: 1.1 },
+    { id: prod-4a13a885-012, name: Premium Item 12, category: sports, price: 199.54, stock: 93, rating: 2.4 },
+    { id: prod-4a13a885-013, name: Basic Item 13, category: sports, price: 237.72, stock: 32, rating: 1.1 },
+    { id: prod-4a13a885-014, name: Elite Item 14, category: books, price: 192.87, stock: 193, rating: 3.1 },
+    { id: prod-4a13a885-015, name: Elite Item 15, category: electronics, price: 326.16, stock: 64, rating: 1.5 }
+  ],
+  aggregations: {
+    clothing: {
+      count: 1,
+      inventoryValue: 64694.40
+    }
+  }
+}
+
